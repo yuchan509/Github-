@@ -6,7 +6,7 @@ Git 사용법
   - git config --global user.name 'my name'
 
 - **Step2.**
-  -git init
+  - git init
 
 - **Step3. Change branch**
   - git branch -M main
