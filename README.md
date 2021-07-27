@@ -12,7 +12,7 @@ Git 사용법
   - git branch -M main
 
 - Step4. Check status
- - git status
+  - git status
 
 - Step5. Commit
   - git add *
