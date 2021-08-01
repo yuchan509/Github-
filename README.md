@@ -26,3 +26,8 @@ Git 사용법
 
 - **Step8 Push**
   - git push origin main
+
+- **Step9 Delete**
+  - git rm -r - cached '파일명/폴더명' 
+  - git commit -m 'delete 파일명/폴더명'
+  - git push origin main(branch명)
