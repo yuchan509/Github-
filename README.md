@@ -1,11 +1,14 @@
 # Github
 Git 사용법
 
-- **Step1.**
+- **Step0.**
   - git config --global user.email 'my email'
   - git config --global user.name 'my name'
 
-- **Step2.**
+- **Step1.**
+  - git clone 'URL' '폴더명'
+  -  
+- **Step2. Clone repasitory**
   - git init
 
 - **Step3. Change branch**
