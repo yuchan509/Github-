@@ -7,7 +7,7 @@ Git 사용법
 
 - **Step1.**
   - git clone 'URL' '폴더명'
-  -  
+    
 - **Step2. Clone repasitory**
   - git init
 
