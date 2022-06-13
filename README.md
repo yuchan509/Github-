@@ -2,41 +2,41 @@
 Git 사용법
 
 - **Step0.**
-  - git config --global user.email 'my email'
-  - git config --global user.name 'my name'
+  - `git config --global user.email 'my email'`
+  - `git config --global user.name 'my name'`
 
 - **Step1.**
-  - git clone 'URL' '폴더명'
+  - `git clone 'URL' '폴더명'`
     
 - **Step2. Clone repasitory**
-  - git init
+  - `git init`
 
 - **Step3. Change branch**
-  - git branch -M main
+  - `git branch -M main`
 
 - **Step4. Check status**
-   - git status
+   - `git status`
 
 - **Step5. Commit**
-  - git add *
-  - git commit -m 'My Git File Name'
+  - `git add *`
+  - `git commit -m 'My Git File Name'`
 
 - **Step6. Remote**
-  - git remote add origin 'My Git URL'
+  - `git remote add origin 'My Git URL'`
 
 - **Step7. Pull**
-  - git pull --rebase origin main
+  - `git pull --rebase origin main`
 
 - **Step8 Push**
-  - git push origin main
+  - `git push origin main`
 
 - **Step9 Delete**
-  - git rm -r - cached '파일명/폴더명' 
-  - git commit -m 'delete 파일명/폴더명'
-  - git push origin main(branch명)
+  - `git rm -r - cached '파일명/폴더명'` 
+  - `git commit -m 'delete 파일명/폴더명'`
+  - `git push origin main(branch명)`
 
 - **Step10 git Manipulation**
-  - git log : 해당 repo의 git log들을 보여줌.
+  - `git log` : 해당 repo의 git log들을 보여줌.
 
   ```git
   Owner@DESKTOP-72245DQ MINGW64 ~/Desktop/Data-Collection (main)
@@ -55,7 +55,7 @@ Git 사용법
   ....ing
   ```
 
-  - Git rebase -i Hash Value : e4d003c14c76e1b7f46b97f5e26e265ce33d3665
+  - `Git rebase -i Hash Value` : e4d003c14c76e1b7f46b97f5e26e265ce33d3665
     - 수정하고 싶은 date를 선택하여 pick -> edit으로 전환.
     - "i" key를 통해 command mode -> insert mode로 변환하며 pick에서 edit으로 수정이 가능.
     - 변경이 끝난 후, ESC key + :wq! 를 통해 해당 작업 종료.
@@ -86,14 +86,14 @@ Git 사용법
 
   ```
 
-  - git commit amend : 원하는 date로의 수정이 가능
+  - `git commit amend` : 원하는 date로의 수정이 가능
   - e.g) git commit --amend --no-edit --date="{date}"
     - input : git commit --amend --no-edit --date="JAN 01 12:00:00 2022 +0000"
 
 
-  - git rebase --continue : rebas 완료.
+  - `git rebase --continue` : rebas 완료.
 
-  - git push -f origin main : 수정한 내용 push.
+  - `git push -f origin main` : 수정한 내용 push.
 
 
 - Step11. Edit commit message
