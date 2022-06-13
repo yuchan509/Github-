@@ -1,7 +1,7 @@
 # Github
 Git Munual
 
-- **Step0.**
+- **Step0. Start**
   - `git config --global user.email 'my email'`
   - `git config --global user.name 'my name'`
 
