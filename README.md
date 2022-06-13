@@ -1,5 +1,5 @@
 # Github
-Git 사용법
+Git Munual
 
 - **Step0.**
   - `git config --global user.email 'my email'`
