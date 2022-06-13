@@ -99,5 +99,5 @@ Git 사용법
   - `git push -f origin main` : 수정한 내용 push.
 
 
-- Step11. Edit commit message
+- **Step11. Edit commit message**
 - [Reference](https://github.com/yuchan509/Frontend-Study)
