@@ -38,6 +38,7 @@ Git 사용법
 - **Step10 git Manipulation**
   - `git log` : 해당 repo의 git log들을 보여줌.
   <br>
+  
   ```git
   Owner@DESKTOP-72245DQ MINGW64 ~/Desktop/Data-Collection (main)
 
@@ -59,6 +60,7 @@ Git 사용법
     - 수정하고 싶은 date를 선택하여 pick -> edit으로 전환.
     - "i" key를 통해 command mode -> insert mode로 변환하며 pick에서 edit으로 수정이 가능.
     - 변경이 끝난 후, ESC key + :wq! 를 통해 해당 작업 종료.
+    
    <br>
 
   ```git
